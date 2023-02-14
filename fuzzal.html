@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Fuzzal</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+ 
+  <style>
+    h1{
+      color: orange;
+      text-align: center;
+    }
+
+    #container{
+      width:fit-content;
+      margin:0px auto;
+      border: 2px solid black;
+      border-radius: 20px;
+      min-height: 60vh;
+    }
+    #piecesContainer{
+      width: 408px;
+      height: 408px;
+      margin:20px;
+      float:left;
+      border:1px solid orange;
+      text-align: center;
+      line-height: 408px;
+      position: relative;
+    }
+    #imageContainer{
+      width: 408px;
+      height: 408px;
+      margin:20px;
+      float:right;
+      border:1px solid orange;
+      text-align: center;
+      line-height: 408px;
+    }
+    
+#Ul_btn{
+  list-style-type: none;
+  text-align: center;
+}
+#Ul_btn button{
+  border-color: orange;
+  border-radius: 5px;
+  padding:5px;
+  width: 50px;
+  background-color: orange;
+  color:white;
+
+}
+#btnReset{
+  display: none;
+}
+
+#pieces{
+  width:100px;
+  height: 100px;
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  float:left;
+  border:1px solid silver;
+ 
+}
+
+  </style>
+</head>
+<body>
+ <h1>Lets play a Game!</h1>
+<div id="container">
+  <div id="piecesContainer"></div>
+  <div id="imageContainer"></div>
+  <ul  id="Ul_btn">
+    <li><button id="btnStart">Start</button></li>
+    <li><button id="btnReset">Reset</button></li>
+  </ul>
+</div>
+ <script src="fuzzal.js"></script>
+</body>
+</html>
