@@ -1,2 +1,2 @@
-# Fuzzal-Game
-This a simple Fuzzal sorting Game created in jquery.
+# Puzzle-Game
+This a simple puzzle sorting Game created in jquery.
